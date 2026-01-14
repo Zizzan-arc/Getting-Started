@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* eigula diya must because amra shob manually style korbo */
+
+}
+/* shared style */
+.font-open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+ 
+}
+.logo h2{
+    font-size: 42px;
+    
+
+}
+.orange-color{
+    color: #FD6E0A;
+      font-weight: 900px;
+}
+nav .list-style{
+    list-style: none;
+    display: flex;
+    gap:51px;
+    align-items: center;
+}
+nav .list-style a{
+    font-size: 20px;
+    color: #474747;
+    text-decoration: none;
+}
+nav .list-style .btn{
+    background-color: #FD6E0A;
+    border: none ;
+    padding: 18px 36px 19px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+}
+
+
+/* main style */
+header{
+    background-color: #ecddd1;
+    padding-top:50px ;
+    
+}
+nav{
+    width: 71%;
+    max-width:1140px ;
+    border: 1px solid red;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
